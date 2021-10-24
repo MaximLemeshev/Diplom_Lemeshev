@@ -4,8 +4,16 @@
 
 //Общее
 //@import 'main/stylesheet';// шрифты
-//@import 'main/reset'; // сброс стилей для кроссбраузерности
+@import 'main/reset'; // сброс стилей для кроссбраузерности
 //@import 'main/common'; // общие стили
+@import 'main/stylesheetfonts.scss';
 
 // дальше можно писать все стили сайта в этот файл, или писать их в компонентах
 @import 'components/header';
+@import 'components/main';
+html{
+    font-family:'Roboto';
+}
+*{
+    box-sizing: border-box;
+}

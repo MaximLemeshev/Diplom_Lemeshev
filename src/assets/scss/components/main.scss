@@ -1,0 +1,84 @@
+.fs {
+    background: #F0EFEB;
+    display: flex;
+    flex: 1 1 50%; }
+  
+  .fs-row {
+    display: flex;
+    padding-top: 90px;
+ }
+  
+  .fs_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 42px; }
+  
+  .fs_discr {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 26px; }
+  
+  .button {
+    background: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 100px;
+    max-width: 129px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 8px 23px;
+    font-family: 'Roboto'; }
+
+  
+  .ss-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px; }
+  
+  .ss_title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px; }
+  
+  .ss_subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 47px;
+    max-width: 632px; }
+
+    .ss_avalible{
+    margin-bottom: 88px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    }
+    .ss_sell{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    }
