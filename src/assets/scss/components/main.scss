@@ -70,3 +70,39 @@
     text-align: center;
     color: #000000;
     }
+    .ss_best-sellers{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 52px;
+        justify-content: space-between;
+    }
+
+    .ss_best-seller{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ss_text1{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    max-width: 156px;
+    margin: 0 auto 17px auto;
+    }
+    .ss_text2{
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 4px;
+    }
+    .ss_link{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+    }
