@@ -238,12 +238,50 @@
     max-width: 220px;
     }
 
-    .sixth_ThalbyGuide{
+    .sixth_Thalbytitle{
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     color: #000000;
     max-width: 705px;
-    margin: 0 auto;
+    margin: 0 auto 103px auto;
+    }
+    .sixth_Guids{
+        // position: relative;
+        // top: 0;bottom: 0;right: 0;left: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .sixth_people{
+        max-width: 290px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sixth_photo{
+    margin-bottom: 35px;
+    }
+    .sixth_quote{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #000000;
+    max-width: 248px;
+    }
+    .sixth_data{
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    max-width: 225px;
+    }
+    .section_background {
+    height: 480px;
+    background: #F0F0F0;
+    // position: relative;
+    // bottom: 365px;
     }
