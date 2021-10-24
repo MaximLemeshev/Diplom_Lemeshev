@@ -179,10 +179,71 @@
     }
     .sixth-row{
         padding-top: 190px;
+
     }
-    .features{
+    .sixth_features{
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     color: #000000;
+    max-width: 450px;
+    margin: 0 auto 70px auto;
+    }
+    .sixth_guides {
+    display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-template-rows:repeat(2, 1fr) ;
+    row-gap: 110px;
+    column-gap: 24px;
+    margin-bottom: 164px;
+    
+    }
+    .sixth_content{
+        max-width: 340px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sixth_circle{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    margin-bottom: 26px;
+    }
+    .color1{
+    background: #21F7EC;
+    }
+    .color2{
+    background: #33D3BC;
+    }
+    .color3{
+    background: #18A5C6;
+    }
+    .color4{
+    background: #D38F62;
+    }
+    .color5{
+        background: #F94C43;
+    }
+    .color6{
+    background: #D399FF;
+    }
+    .sixth_text{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+    max-width: 220px;
+    }
+
+    .sixth_ThalbyGuide{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    max-width: 705px;
+    margin: 0 auto;
     }
