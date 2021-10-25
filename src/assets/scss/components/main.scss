@@ -286,3 +286,34 @@
     height: 480px;
     background: #F0F0F0;
     }
+    .seventh-row{
+        padding: 80px 0;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+
+    }
+    .seventh_title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+    }
+    .seventh_subtitle{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    max-width: 496px;
+    margin: 0 auto 26px auto;
+    }
+    .forms {
+        display: flex;
+        flex-direction: column;
+    }
+    .input{
+        
+    }
