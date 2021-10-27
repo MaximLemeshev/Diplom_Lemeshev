@@ -315,11 +315,10 @@
     .forms {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .input{
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 0px;
-    // max-width: 500px;
-    // max-height: 39px;
    }
