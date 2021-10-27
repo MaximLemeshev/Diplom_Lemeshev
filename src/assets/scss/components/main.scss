@@ -179,7 +179,7 @@
     }
     .sixth-row{
         padding-top: 190px;
-        padding-bottom: 290px;
+        padding-bottom: 102px;
 
     }
     .sixth_features{
@@ -249,8 +249,8 @@
     margin: 0 auto;
     }
     .sixth_Guids{
-        position: relative;
-        bottom: 175px;
+        // position: relative;
+        // bottom: 175px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -283,8 +283,10 @@
     margin-bottom: 44px;
     }
     .section_background {
-    height: 480px;
-    background: #F0F0F0;
+    // height: 480px;
+    padding-bottom: 52px;
+    background: linear-gradient(to bottom,#FFFFFF 29%,#F0F0F0 29%,#F0F0F0 71%);
+    // background: #F0F0F0;
     }
     .seventh-row{
         padding: 80px 0;
@@ -315,5 +317,9 @@
         flex-direction: column;
     }
     .input{
-        
-    }
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 0px;
+    // max-width: 500px;
+    // max-height: 39px;
+   }

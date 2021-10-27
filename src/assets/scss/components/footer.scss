@@ -1,0 +1,63 @@
+.footer_img{
+    display: flex;
+    flex-direction: column;
+}
+.footer_row{
+padding-top: 51px;
+display: flex;
+}
+.footer-top{
+    background-color:#020202;;
+}
+.footer_logo{
+    margin-bottom: 25px;
+}
+.social{
+    margin-right: 20px;
+}
+.footer_inf{
+    margin-left: auto;
+}
+.footer_list{
+    list-style: none;
+}
+.footer_item{
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer_mail,.footer_help {
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.footer_inf{
+    display: flex
+}
+.footer_about{
+    padding: 0 25px;
+}
+.about{
+    margin-bottom: 35px;
+}
+.footer__link{
+    margin-bottom: 12px;
+}
+.contact{
+    margin-bottom: 25px;
+}
+.footer_Thalby{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+}
+.footer_year{
+    font-size: 14px;
+    line-height: 23px;
+    // text-align: center;
+    color: #FFFFFF;
+    }
