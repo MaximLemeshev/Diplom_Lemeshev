@@ -313,12 +313,19 @@
     margin: 0 auto 26px auto;
     }
     .forms {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .forms_row{
+        margin-bottom: 16px;
     }
     .input{
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 0px;
    }
+   .link_ss{
+       color:white;
+   }
+   
