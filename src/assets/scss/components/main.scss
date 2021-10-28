@@ -318,13 +318,38 @@
     align-items: center;
     }
     .forms_row{
-        margin-bottom: 16px;
+    max-width: 366px;
+    }
+    .forms_input{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     }
     .input{
     border: 1px solid #000000;
     box-sizing: border-box;
     border-radius: 0px;
+    justify-content: space-between;
+
    }
+   .input_name{
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    padding: 12px 8px;
+    max-width: 153px;
+    display: block;
+    // margin-right: 30px;
+    }
+    .input_f{
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    padding: 12px 8px;
+    max-width: 200px;
+    display: block;
+    margin-bottom: 35px;
+    }
    .link_ss{
        color:white;
    }

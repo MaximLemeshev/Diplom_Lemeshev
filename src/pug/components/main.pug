@@ -104,12 +104,12 @@ section.seventh
             .seventh_subtitle Get our travel advice, global views and travel freebies in your inbox
             .forms 
                 form.forms_row(action="/")
-                    input.input(type="text" placeholder='First name')
-                    input.input(type="text" placeholder='Last name')
-                    <br>
-                    input.input(type="text" placeholder='Email')
+                    .forms_input 
+                        input.input_name(type="text" placeholder='First name')
+                        input.input_name(type="text" placeholder='Last name')
+                input.input_f(type="text" placeholder='Email')
                 button.button
-                    a(href="#") Subscribe        
+                    a(href="#") Subscribe      
             
 
 
